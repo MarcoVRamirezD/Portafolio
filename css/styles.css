@@ -308,6 +308,9 @@ h3 {
     text-align: center;
 }
 
+
+/* Sobre nosotros */
+
 .foto__marco {
     width: 40rem;
     height: 40rem;
@@ -363,6 +366,40 @@ h3 {
 .seccion__texto__contenido {
     margin-bottom: 5rem;
     padding: 1rem;
+    border-top: .5rem solid var(--primario);
+    border-bottom: .5rem solid var(--primario);
+}
+
+
+/* Proyectos */
+
+.img__proyectos {
+    width: 70rem;
+}
+
+@media (max-width: 768px) {
+    .img__proyectos {
+        width: 30rem;
+    }
+}
+
+.proyectos {
+    justify-content: center;
+    align-content: center;
+}
+
+.seccion__proyectos {
+    display: flex;
+    flex-direction: column;
+}
+
+.proyectos {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
     border-top: .5rem solid var(--primario);
     border-bottom: .5rem solid var(--primario);
 }
