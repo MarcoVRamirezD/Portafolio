@@ -389,6 +389,7 @@ h3 {
 }
 
 .seccion__proyectos {
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
