@@ -320,6 +320,10 @@ h3 {
 
 .texto__resumen {
     width: 40rem;
+    background-color: var(--gris);
+    color: var(--blanco);
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -331,6 +335,7 @@ h3 {
     }
     .texto__resumen {
         padding: 1rem;
+        width: 35rem;
         /* width: 35rem; */
     }
     .seccion__resumen {
