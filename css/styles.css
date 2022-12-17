@@ -422,3 +422,13 @@ h3 {
     border-top: .5rem solid var(--primario);
     border-bottom: .5rem solid var(--primario);
 }
+
+
+/* Contacto */
+
+.info__contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
