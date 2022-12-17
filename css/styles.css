@@ -335,6 +335,9 @@ h3 {
     .sobremarco {
         margin: 2rem;
     }
+    .contenedor {
+        margin: 2rem;
+    }
 }
 
 @media (min-width:768px) {
