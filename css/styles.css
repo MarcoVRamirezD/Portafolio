@@ -431,4 +431,9 @@ h3 {
     flex-direction: column;
     text-align: center;
     gap: 2rem;
+    align-items: center;
+}
+
+.info__contacto a {
+    width: 25rem;
 }
